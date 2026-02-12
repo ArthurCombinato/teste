@@ -13,18 +13,17 @@ body{
     
 }
 a{
-    background-color: blue;
-    border-radius: 20px;
+    
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
     padding: 15px;
-    transition: 0.3s;
+    
     margin: 10px;
 }
 a:hover{
-    transform: scale(1.05);
+    text-decoration: underline;
 }
 .Nome{
     color: white;
@@ -45,4 +44,41 @@ a:hover{
 main{
     margin-top: 100px;
 }
- 
+ .carrossel {
+    position: relative;
+    width: 600px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.imagens {
+    margin: 20px;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.imagens img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
