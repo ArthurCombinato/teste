@@ -99,3 +99,57 @@ article{
 main{
     margin-top: 100px;
 }
+.resultados{
+    margin-left: 110px;
+    background: linear-gradient(to right, rgb(141, 0, 207), rgb(106, 0, 255), rgb(26, 25, 25));
+    width: 350px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+.carrossel{
+    
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.seta {
+  position: absolute;
+  
+  transform: translateY(-50%);
+  background: rgba(140, 0, 255, 0.5);
+  bottom: 0;
+  
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.esquerda {
+  left: 10px;
+}
+
+.direita {
+  right: 10px;
+}
+
+.fig1{
+    
+    margin-left: 100px;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.fig1 img{
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.ft1{
+    padding: 7px;
+    border-radius: 20px;
+    width: 200px;
+    height: 225px;
+}
