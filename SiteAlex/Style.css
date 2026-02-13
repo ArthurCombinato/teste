@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: rgb(26, 25, 25);
 }
 .header1{
     position: fixed;
@@ -7,14 +8,14 @@ body{
     left: 0;
     height: 100px;
     width: 100%;
-    background: linear-gradient(to right,#331958, #4703a6, #784092);
+    background-color: rgb(255, 253, 253);
     display: flex;
     justify-content: flex-start;
     
 }
 a{
     
-    color: #ffffff;
+    color: black;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -26,9 +27,63 @@ a:hover{
     text-decoration: underline;
 }
 .Nome{
-    color: white;
+    color: black;
     margin-left: 100px;
     font-size: 25px;
+}
+.header2{
+    color: white;
+    display: flex;
+     
+     background:
+        radial-gradient(circle at 15% 70%, #2a005f 0%, transparent 40%),
+        radial-gradient(circle at 70% 20%, #3b008f 0%, transparent 40%),
+        radial-gradient(circle at 85% 60%, #8a00ff 0%, transparent 45%),
+        radial-gradient(circle at 50% 50%, #150030 0%, #000 70%);
+    
+    
+    height: 200px;
+    
+    padding-right: 100px;
+    padding-bottom: 350px;
+}
+.img1{
+    
+    border: solid 3px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 450px;
+    height: 450px;
+}
+.t1{
+    
+    
+    font-size: 30px;
+    padding-left: 200px;
+    padding-top: 80px;
+    width: 500px;
+    height: 400px;
+}
+.caixa1{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 15px;
+    border-radius: 15px;
+    width: 600px;
+    height: 300px;
+}
+span{
+    font-size: bold;
+    color: #ae00ff;
+}
+
+section{
+    color: white;
+}
+article{
+    color: rgb(255, 255, 255);
 }
 .links{
     margin-left: 300px;
@@ -43,42 +98,4 @@ a:hover{
 }
 main{
     margin-top: 100px;
-}
- .carrossel {
-    position: relative;
-    width: 600px;
-    margin: 50px auto;
-    overflow: hidden;
-}
-
-.imagens {
-    margin: 20px;
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.imagens img {
-    width: 300px;
-    height: 250px;
-    object-fit: cover;
-}
-
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0,0,0,0.5);
-    color: white;
-    border: none;
-    font-size: 30px;
-    cursor: pointer;
-    padding: 10px;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
 }
