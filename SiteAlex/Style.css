@@ -100,7 +100,7 @@ main{
     margin-top: 100px;
 }
 .resultados{
-    margin-left: 110px;
+    margin-left: 125px;
     background: linear-gradient(to right, rgb(141, 0, 207), rgb(106, 0, 255), rgb(26, 25, 25));
     width: 350px;
     border-radius: 10px;
@@ -108,18 +108,20 @@ main{
     padding-bottom: 5px;
     font-size: 30px;
 }
-.carrossel{
+.carrosel{ 
+    margin-left: 125px;
+    padding-left: 0;
+    width: 1210px;
     
-    position: relative;
-    width: 400px;
-    height: 300px;
+    height: 400px;
     overflow: hidden;
 }
 
 .seta {
-  position: absolute;
   
-  transform: translateY(-50%);
+  
+  border-radius: 100%;
+  width: 40px;
   background: rgba(140, 0, 255, 0.5);
   bottom: 0;
   
@@ -130,16 +132,19 @@ main{
 }
 
 .esquerda {
-  left: 10px;
+  margin-left: 10px;
 }
 
 .direita {
-  right: 10px;
+    margin-left: 91%;
+    
+    
 }
 
 .fig1{
-    
-    margin-left: 100px;
+    width: 90%px;
+    margin-left: 0;
+    padding-left: 0;
     display: flex;
     transition: transform 0.5s ease;
 }
