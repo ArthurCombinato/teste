@@ -1,3 +1,4 @@
+/*JS para funcionar os botões das fotos*/
 const carrosel = document.querySelector('.carrosel');
 const figura = document.querySelector('.fig1');
 const imagens = document.querySelectorAll('.ft1');
@@ -5,7 +6,7 @@ const btnEsquerda = document.querySelector('.esquerda');
 const btnDireita = document.querySelector('.direita');
 
 let index = 0;
-const maxMovimentos = 2; // 👈 só pode andar 2 vezes
+const maxMovimentos = 4; // 👈 só pode andar 2 vezes
 
 function atualizarCarrosel() {
     const largura = carrosel.clientWidth;
