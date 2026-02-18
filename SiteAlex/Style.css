@@ -18,10 +18,13 @@ body{
     margin-left: 120px;
     font-size: 25px;
 }
-section {
+section {/*âncoras(Inicio, Sobre, Resultados, Contato)*/
   scroll-margin-top: 100px;
 }
-#sobre{
+html{/*faz subir e descer de forma mais suave*/
+    scroll-behavior: smooth;
+}
+#sobre{/*configuração especifica para o link #Sobre*/
     scroll-margin-top: 50px;
 }
 a{ /* Links do cabeçalho(Inicio, Sobre, Resultados, Contato) */
@@ -54,6 +57,16 @@ main{
     padding-right: 100px;
     padding-bottom: 350px;
 }
+.praticas{/*Algumas práticas do curso*/
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 5px;
+    
+}
 .img1{/*imagem que está dentro do header 2*/
     border: solid 3px;
     border-radius: 15px;
@@ -65,7 +78,7 @@ main{
 .t1{/* div dentro do header2*/ 
     font-size: 30px;
     padding-left: 200px;
-    padding-top: 80px;
+    padding-top: 50px;
     width: 500px;
     height: 400px;
 }
@@ -76,7 +89,7 @@ main{
     padding-left: 15px;
     border-radius: 15px;
     width: 600px;
-    height: 300px;
+    height: 180px;
 }
 span{/*palavras com a letra diferente*/
     font-size: bold;
@@ -98,7 +111,7 @@ span{/*palavras com a letra diferente*/
 .carrosel{ /*efeio de carrosel*/
     margin-left: 125px;
     padding-left: 0;
-    width: 1210px;
+    width: 1180px;
     height: 400px;
     overflow: hidden;
 }
@@ -138,10 +151,9 @@ span{/*palavras com a letra diferente*/
     padding: 20px;
     border-radius: 15px;
     background: radial-gradient(circle at center, #1a0033 0%, #000000 70%);   
-    margin-left: 160px;
-    margin-top: 90px;
+    margin-left: 130px;
     padding-left: 20px;
-    width: 1100px;
+    width: 1120px;
 }
 .section1::before {/* borda com degrade*/
     content: "";/*Obrigatório para o pseudo-elemento aparecer.*/
@@ -166,6 +178,15 @@ span{/*palavras com a letra diferente*/
 .ftprof{
     margin-left: 170px;
 }
-.praticas{/*Algumas práticas do curso*/
-    color: white;
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(to bottom right, #ff00cc, #3333ff);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 20px rgba(37, 211, 102, 0.6);
 }
