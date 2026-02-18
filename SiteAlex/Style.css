@@ -18,7 +18,6 @@ body{
     margin-left: 120px;
     font-size: 25px;
 }
-
 section {
   scroll-margin-top: 100px;
 }
@@ -134,7 +133,6 @@ span{/*palavras com a letra diferente*/
     height: 325px;
 }
 .section1{/*Quadrado que fala sobre o professor com a imagem dele */
-    
     display: flex;
     position: relative;
     padding: 20px;
