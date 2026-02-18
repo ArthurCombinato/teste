@@ -5,7 +5,7 @@ const imagens = document.querySelectorAll('.ft1');
 const btnEsquerda = document.querySelector('.esquerda');
 const btnDireita = document.querySelector('.direita');
 let index = 0;
-const maxMovimentos = 4; //  só pode andar 2 vezes
+const maxMovimentos = 4;
 function atualizarCarrosel() {
     const largura = carrosel.clientWidth;
     figura.style.transform = `translateX(-${index * largura}px)`;

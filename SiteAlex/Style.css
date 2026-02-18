@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background: rgb(26, 25, 25);
+    
 }
 .header1{ /*cabeçalho do site */
     position: fixed;
@@ -27,7 +28,7 @@ html{/*faz subir e descer de forma mais suave*/
 #sobre{/*configuração especifica para o link #Sobre*/
     scroll-margin-top: 50px;
 }
-a{ /* Links do cabeçalho(Inicio, Sobre, Resultados, Contato) */
+.links-top{ /* Links do cabeçalho(Inicio, Sobre, Resultados, Contato) */
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -39,7 +40,7 @@ a{ /* Links do cabeçalho(Inicio, Sobre, Resultados, Contato) */
     margin-left: 300px;
     margin-top: 40px;
 }
-a:hover{
+.links-top:hover{
     text-decoration: underline;
 }
 main{
@@ -63,10 +64,22 @@ main{
     font-style: normal;
     color: rgb(255, 255, 255);
     width: 400px;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-right: 5px;
-    
 }
+.botao1{/*Botão ('Quero tirar 900+')*/
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to right, #ff00cc, #3333ff);
+    box-shadow: 0 0 40px 5px rgb(32, 109, 197);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    margin-left: 80px;
+}
+
 .img1{/*imagem que está dentro do header 2*/
     border: solid 3px;
     border-radius: 15px;
@@ -78,18 +91,18 @@ main{
 .t1{/* div dentro do header2*/ 
     font-size: 30px;
     padding-left: 200px;
-    padding-top: 50px;
+    padding-top: 0px;
     width: 500px;
-    height: 400px;
+    height: 500px;
 }
 .caixa1{/*frase dentro do header2*/
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
     font-style: normal;
     padding-left: 15px;
-    border-radius: 15px;
     width: 600px;
     height: 180px;
+    margin-bottom: 0px;
 }
 span{/*palavras com a letra diferente*/
     font-size: bold;
@@ -151,12 +164,51 @@ span{/*palavras com a letra diferente*/
     width: 300px;
     height: 325px;
 }
+.depoimentos-tot{
+    width: 1160px;
+    display: flex;
+    margin-left: 125px;
+    margin-top: 35px;
+}
+.depoimentos{
+    margin-right: 10px;
+    width: 290px;
+}
+.dep{
+    text-align: center;
+    border: solid;
+    border-color: #7905c7;
+    background: linear-gradient(to  bottom left, #a608cec9,rgb(26, 25, 25),rgb(26, 25, 25) );
+    width: 265px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    
+
+}
+.vd{
+    border: solid;
+    border-radius: 15px;
+    border-color: #7905c7;
+    width: 285px;
+    height: 350px;
+    margin-top: 13px;
+    
+}
+.vd2{
+    border: solid;
+    border-radius: 15px;
+    border-color: #7905c7;
+    width: 300px;
+    height: 400px;
+}
 .section1{/*Quadrado que fala sobre o professor com a imagem dele */
     display: flex;
     position: relative;
     padding: 20px;
     border-radius: 15px;
-    background: radial-gradient(circle at center, #1a0033 0%, #000000 70%);   
+    background: radial-gradient(circle at center, #1a0033 0%, #000000 70%);
+    margin-top: 650px;   
     margin-left: 130px;
     padding-left: 20px;
     width: 1120px;
@@ -186,7 +238,6 @@ span{/*palavras com a letra diferente*/
 }
 .whatsapp-btn {/*botão fixado que leva para o WhatsApp*/
   position: fixed;
-  
   bottom: 20px;
   right: 20px;
   background: linear-gradient(to bottom right, #ff00cc, #3333ff);
