@@ -165,7 +165,7 @@ span{/*palavras com a letra diferente*/
     width: 300px;
     height: 325px;
 }
-.titulo-dep1{
+.titulo-dep1{/*Titulo dos depoimentos*/
     font-size: 40px;
     font-family: "Fjalla One", sans-serif;
     font-weight: 100;
@@ -173,7 +173,7 @@ span{/*palavras com a letra diferente*/
     margin-left: 125px;
     margin-bottom: 0px;
 }
-.titulo-dep2{
+.titulo-dep2{/*Subtitulo dos depoimentos*/
     font-size: 20px;
     font-family: "Fjalla One", sans-serif;
     font-weight: 100;
