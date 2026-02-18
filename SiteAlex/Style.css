@@ -95,12 +95,12 @@ span{/*palavras com a letra diferente*/
     font-size: bold;
     color: #8a00ff;
 }
-/*.span1{
+.span1{
     text-shadow: #ff00d4;
-    background: linear-gradient(to top right, #7905c7, #ff00d4);
+    background: linear-gradient(to right, #7905c7, #ff00d4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}*/
+}
 .alunos{/*article - 'Resultado dos alunos' e fotos*/
     color: rgb(255, 255, 255);
     height: 550px;
