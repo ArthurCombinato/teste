@@ -115,8 +115,9 @@ span{/*palavras com a letra diferente*/
     -webkit-text-fill-color: transparent;
 }
 .alunos{/*article - 'Resultado dos alunos' e fotos*/
+    
     color: rgb(255, 255, 255);
-    height: 550px;
+    height: 1350px;
 }
 .resultados{/*'Resultado dos alunos'*/
     margin-left: 125px;
@@ -164,17 +165,18 @@ span{/*palavras com a letra diferente*/
     width: 300px;
     height: 325px;
 }
-.depoimentos-tot{
+.depoimentos-tot{/*Div de depoimentos*/
     width: 1160px;
     display: flex;
     margin-left: 125px;
-    margin-top: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.depoimentos{
+.depoimentos{/*Colunas dos depoimentos*/
     margin-right: 10px;
     width: 290px;
 }
-.dep{
+.dep{/*Depoimentos separados*/
     text-align: center;
     border: solid;
     border-color: #7905c7;
@@ -186,7 +188,7 @@ span{/*palavras com a letra diferente*/
     
 
 }
-.vd{
+.vd{/*Vídeo 1*/
     border: solid;
     border-radius: 15px;
     border-color: #7905c7;
@@ -195,20 +197,33 @@ span{/*palavras com a letra diferente*/
     margin-top: 13px;
     
 }
-.vd2{
+.vd2{/*Vídeo 2*/
     border: solid;
     border-radius: 15px;
     border-color: #7905c7;
-    width: 300px;
-    height: 400px;
+    width: 285px;
+    height: 350px;
+}
+.botao2{/*Segundo botão*/
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to right, #ff00cc, #3333ff);
+    box-shadow: 0 0 40px 5px rgb(32, 109, 197);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 600px;
+    margin-top: 100px;
 }
 .section1{/*Quadrado que fala sobre o professor com a imagem dele */
     display: flex;
     position: relative;
     padding: 20px;
     border-radius: 15px;
-    background: radial-gradient(circle at center, #1a0033 0%, #000000 70%);
-    margin-top: 650px;   
+    background: radial-gradient(circle at center, #1a0033 0%, #000000 70%);  
     margin-left: 130px;
     padding-left: 20px;
     width: 1120px;
