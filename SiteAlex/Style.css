@@ -11,11 +11,19 @@ body{
     background-color: rgb(255, 253, 253);
     display: flex;
     justify-content: flex-start;
+    z-index: 1000;
 }
 .Nome{ /*Nome do professor */
     color: black;
-    margin-left: 100px;
+    margin-left: 120px;
     font-size: 25px;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+#sobre{
+    scroll-margin-top: 50px;
 }
 a{ /* Links do cabeçalho(Inicio, Sobre, Resultados, Contato) */
     color: black;
@@ -125,16 +133,41 @@ span{/*palavras com a letra diferente*/
     width: 300px;
     height: 325px;
 }
-section{/*Sobre o professor*/
-    color: white;
-    border: solid 2px;
-    border-color: #ae00ff;
-    margin-left: 700px;
-    margin-top: 100px;
+.section1{/*Quadrado que fala sobre o professor com a imagem dele */
+    
+    display: flex;
+    position: relative;
+    padding: 20px;
+    border-radius: 15px;
+    background: radial-gradient(circle at center, #1a0033 0%, #000000 70%);   
+    margin-left: 160px;
+    margin-top: 90px;
     padding-left: 20px;
-    width: 500px;
-    font-size: 25px;
+    width: 1100px;
 }
-.praticas{
+.section1::before {/* borda com degrade*/
+    content: "";/*Obrigatório para o pseudo-elemento aparecer.*/
+    position: absolute;
+    inset: 0;
+    padding: 4px; /*espessura da borda*/
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, #ff00cc, #3333ff);
+    -webkit-mask:/*Cria uma máscara (como um recorte invisível)*/ 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;/*Diz para remover a área interna da máscara*/
+        mask-composite: exclude;/*Versão padrão moderna da mesma ideia*/
+}
+.txt_professor{/*Texto Falando do Professor*//**/
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.ftprof{
+    margin-left: 170px;
+}
+.praticas{/*Algumas práticas do curso*/
     color: white;
 }
