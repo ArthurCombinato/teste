@@ -93,8 +93,14 @@ main{
 }
 span{/*palavras com a letra diferente*/
     font-size: bold;
-    color: #ae00ff;
+    color: #8a00ff;
 }
+/*.span1{
+    text-shadow: #ff00d4;
+    background: linear-gradient(to top right, #7905c7, #ff00d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}*/
 .alunos{/*article - 'Resultado dos alunos' e fotos*/
     color: rgb(255, 255, 255);
     height: 550px;
@@ -175,17 +181,17 @@ span{/*palavras com a letra diferente*/
     font-weight: bold;
     margin-top: 10px;
 }
-.ftprof{
+.ftprof{/*imagen do professor*/
     margin-left: 170px;
 }
-.whatsapp-btn {
+.whatsapp-btn {/*botão fixado que leva para o WhatsApp*/
   position: fixed;
   
   bottom: 20px;
   right: 20px;
   background: linear-gradient(to bottom right, #ff00cc, #3333ff);
   color: white;
-  padding: 15px 20px;
+  padding: 0px 4px;
   border-radius: 50px;
   text-decoration: none;
   font-weight: bold;
@@ -196,6 +202,6 @@ span{/*palavras com a letra diferente*/
         0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
         70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
 }
-.imgw{
-    width: 40px;
+.imgw{/*Logo do Whats*/
+    width: 60px;
 }
