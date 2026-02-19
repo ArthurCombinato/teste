@@ -245,11 +245,15 @@ span{/*palavras com a letra diferente*/
     position: relative;
     padding: 20px;
     border-radius: 15px;
-    background: radial-gradient(circle at center, #1a0033 0%, #000000 70%);  
+    background:
+    radial-gradient(circle at top left, #3333ff86 0%, transparent 60%),
+    radial-gradient(circle at bottom right, #3333ff86 0%, transparent 60%),
+#000000;
     margin-top: 150px;
     margin-left: 130px;
     padding-left: 20px;
     width: 1120px;
+    height: 500px;
 }
 .section1::before {/* borda com degrade*/
     content: "";/*Obrigatório para o pseudo-elemento aparecer.*/
@@ -264,15 +268,24 @@ span{/*palavras com a letra diferente*/
     -webkit-mask-composite: xor;/*Diz para remover a área interna da máscara*/
         mask-composite: exclude;/*Versão padrão moderna da mesma ideia*/
 }
-.txt_professor{/*Texto Falando do Professor*//**/
+.txt_professor{/*Texto Falando do Professor*/
     text-align: center;
     font-size: 30px;
     color: white;
     font-weight: bold;
-    margin-top: 10px;
+    margin-left: 20px;
+    width: 700px;
+    
+}
+.txt_professor h2{
+    font-family: "Fjalla One", sans-serif;
+    font-style: normal;
+}
+.txt_professor p{
+    
 }
 .ftprof{/*imagen do professor*/
-    margin-left: 170px;
+    margin-left: 100px;
 }
 .whatsapp-btn {/*botão fixado que leva para o WhatsApp*/
   position: fixed;
