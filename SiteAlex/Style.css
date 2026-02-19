@@ -68,6 +68,7 @@ main{
     padding-right: 5px;
 }
 .botao1{/*Botão ('Quero tirar 900+')*/
+    display: inline-block;
     color: white;
     text-decoration: none;
     background: linear-gradient(to right, #ff00cc, #3333ff);
@@ -78,6 +79,10 @@ main{
     font-weight: 10;
     font-style: normal;
     margin-left: 80px;
+    transition: transform 0.25s ease;
+}
+.botao1:hover {/*efeito de zoom*/
+  transform: scale(1.1);
 }
 
 .img1{/*imagem que está dentro do header 2*/
