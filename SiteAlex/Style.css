@@ -206,8 +206,6 @@ span{/*palavras com a letra diferente*/
     font-size: 15px;
     padding: 10px;
     border-radius: 15px;
-    
-
 }
 .vd{/*Vídeo 1*/
     border: solid;
@@ -216,7 +214,6 @@ span{/*palavras com a letra diferente*/
     width: 285px;
     height: 350px;
     margin-top: 13px;
-    
 }
 .vd2{/*Vídeo 2*/
     border: solid;
@@ -243,8 +240,6 @@ span{/*palavras com a letra diferente*/
 .botao2:hover {/*efeito de zoom*/
   transform: scale(1.1);
 }
-    
-
 .section1{/*Quadrado que fala sobre o professor com a imagem dele */
     display: flex;
     position: relative;
