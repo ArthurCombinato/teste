@@ -1,7 +1,6 @@
 body{
     margin: 0;
     background: rgb(26, 25, 25);
-    
 }
 .header1{ /*cabeçalho do site */
     position: fixed;
@@ -84,7 +83,6 @@ main{
 .botao1:hover {/*efeito de zoom*/
   transform: scale(1.1);
 }
-
 .img1{/*imagem que está dentro do header 2*/
     border: solid 3px;
     border-radius: 15px;
@@ -120,7 +118,6 @@ span{/*palavras com a letra diferente*/
     -webkit-text-fill-color: transparent;
 }
 .alunos{/*article - 'Resultado dos alunos' e fotos*/
-    
     color: rgb(255, 255, 255);
     height: 1350px;
 }
@@ -275,17 +272,32 @@ span{/*palavras com a letra diferente*/
     font-weight: bold;
     margin-left: 20px;
     width: 700px;
-    
 }
 .txt_professor h2{
     font-family: "Fjalla One", sans-serif;
     font-style: normal;
 }
-.txt_professor p{
-    
-}
 .ftprof{/*imagen do professor*/
     margin-left: 100px;
+}
+.botao3{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to right, #ff00cc, #3333ff);
+    box-shadow: 0 0 40px 5px rgb(32, 109, 197);
+    border-radius: 40px;
+    padding: 20px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 600px;
+    transition: transform 0.25s ease;
+    margin-bottom: 30px;
+}
+.perguntas{
+    color: white;
 }
 .whatsapp-btn {/*botão fixado que leva para o WhatsApp*/
   position: fixed;
@@ -306,4 +318,100 @@ span{/*palavras com a letra diferente*/
 }
 .imgw{/*Logo do Whats*/
     width: 60px;
+}
+.perguntas-frequentes{/*div com o texto principal, perguntas e respostas*/
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 60px;
+    width: 1130px;
+    margin-left: 100px;
+}
+.perguntas-frequentes h1{/*Texto principal*/
+    margin-left: 35px;
+}
+.faq{/*Div com todas as perguntas*/
+    
+    width: 100%;
+    list-style: none;
+}
+.faq li{/*caixa que contem cada pergunta separadamente*/
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.faq li label{/*configuração dos textos das perguntas*/
+    padding: 15px 10px;
+    font-size: 20px;
+    border-radius: 15px 15px 0 0;
+    background-color: #421a52;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.faq li label span{/*configuração dos números das perguntas*/
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(to bottom right, #ff00cc, #3333ff);
+    color: white;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.faq li label::before{/*configuração do '+'*/
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+}
+.faq input[type = radio]{/*Remove a bolina do type radio*/
+    display: none;
+}
+.faq .resposta{/*Configuração da resposta*/
+    padding: 0 14px;
+    border-radius:  0 0 15px 15px;
+    background-color: #421a52;
+    font-size: 18px;
+    line-height: 32px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s, padding .5s;
+}
+.faq input[type = radio]:checked + label + .resposta{/*Configuração da resposta quando clicar na pergunta*/
+    max-height: 400px;
+    padding: 10px 20px;
+}
+.faq input[type = radio]:checked + label span{/*Configuração do número quando clicar na pergunta*/
+    background: linear-gradient(to bottom right, #3333ff, #ff00cc);
+}
+.faq input[type = radio]:checked + label::before{/*Muda de '+' para '-' quando clicar na pergunta*/
+    content: '-';
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+}
+.curso{
+    margin-left: 125px;
+    padding-top: 40px;
+    width: 400px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 40px;
+}
+.risco1{
+    width: 280px;
+    margin-left: 120px;
+}
+.preparacao{
+    margin-left: 125px;
+    width: 250px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 20px;
+}
+.aprovados{
+    margin-left: 300px;
+}
+.final{
+    margin-left: 400px;
 }
