@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
 body{
     margin: 0;
     background: rgb(26, 25, 25);
@@ -318,7 +317,6 @@ span{/*palavras com a letra diferente*/
 .botao3:hover {/*efeito de zoom*/
   transform: scale(1.1);
 }
-
 .whatsapp-btn {/*botão fixado que leva para o WhatsApp*/
   position: fixed;
   bottom: 20px;
