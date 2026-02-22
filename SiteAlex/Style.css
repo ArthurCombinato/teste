@@ -112,7 +112,7 @@ main{
     height: 180px;
     margin-bottom: 0px;
 }
-span{/*palavras com a letra diferente*/
+.roxo{/*palavras com a letra diferente*/
     font-size: bold;
     color: #8a00ff;
 }
@@ -351,7 +351,6 @@ span{/*palavras com a letra diferente*/
     margin-left: 25px;
 }
 .faq{/*Div com todas as perguntas*/
-    
     width: 100%;
     list-style: none;
 }
@@ -413,7 +412,7 @@ span{/*palavras com a letra diferente*/
 }
 footer{/*rodapé do site*/
     background-color: rgb(255, 255, 255);
-    height: 500px;
+    height: 400px;
 }
 .curso_contato{/*div onde fala do curso e do contato*/
     display: flex;
@@ -451,12 +450,43 @@ footer{/*rodapé do site*/
     font-family: "Fjalla One", sans-serif;
     font-weight: 100;
     font-style: normal;
+    padding-left: 5px;
+    height: 20px;
 }
 .contato p{/*fonte do (p) do contato*/
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    height: 10px;
+}
+.logo_w{/*Div para mexer na parte do WhatsApp*/
+    display: flex;
+}
+.logo_g{/*Div para mexer na parte do Gmail*/
+    display: flex;
+}
+.logo_i{/*Div para mexer na parte do Instagram*/
+    display: flex;
+}
+.logo1{/*Logo do WhatsApp*/
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+.logo2{/*Logo do Gmail*/
+    margin-right: 10px;
+    padding-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+.logo3{/*Logo do Instagram*/
+    margin-right: 10px;
+    padding-top: 15px;
+    width: 40px;
+    height: 40px;
 }
 .aprovados{/*parte que fala sobre as aprovações no rodapé*/
     font-family: "Fjalla One", sans-serif;/*fonte usada*/
@@ -469,5 +499,5 @@ footer{/*rodapé do site*/
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    margin-left: 400px;
+    margin-left: 450px;
 }
