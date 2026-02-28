@@ -502,12 +502,14 @@ footer{/*rodapé do site*/
 }
 /*Responsivo*/
 @media screen and (max-width: 1020px) {
+    
     .Nome{
-        margin-left: 20px;
+        margin-left: 30px;
         
     }
     .links-top{
-        margin-left: 0;
+        margin-left: 20px;
+        font-size: 30px;
         
     }
     .links{
@@ -525,7 +527,7 @@ footer{/*rodapé do site*/
     }
     
     main{
-        padding-left: 20px;
+        padding-left: 40px;
     }
     .carrosel{
         width: 95%;
@@ -549,7 +551,11 @@ footer{/*rodapé do site*/
         text-align: center;
         width: 90%;
     }
+    .txt_professor{
+        width: 96%;
+    }
     .ftprof{
+        margin-left: 200px;
         width: 650px;
         height: 700px;
     }
