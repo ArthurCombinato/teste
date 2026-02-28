@@ -50,7 +50,7 @@ html{/*faz subir e descer de forma mais suave*/
     text-decoration: underline;
 }
 main{
-    padding-left: 123px;
+    padding-left: 8%;
     margin-top: 100px;
 }
 .header2{ /*header dentro do main*/
@@ -140,7 +140,7 @@ main{
     font-size: 30px;
 }
 .carrosel{ /*efeio de carrosel*/
-    border: solid;
+    
     padding-left: 0;
     width: 85%;
     height: 400px;
@@ -191,7 +191,8 @@ main{
     margin-bottom: 0px;
 }
 .depoimentos-tot{/*Div de depoimentos*/
-    width: 1160px;
+    
+    width: 87%;
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -209,7 +210,7 @@ main{
     border: solid;
     border-color: #7905c7;
     background: linear-gradient(to  bottom left, #a608cec9,rgb(26, 25, 25),rgb(26, 25, 25) );
-    width: 265px;
+    width: 92%;
     font-size: 15px;
     padding: 10px;
     border-radius: 15px;
@@ -256,10 +257,10 @@ main{
     radial-gradient(circle at top left, #3333ff86 0%, transparent 60%),
     radial-gradient(circle at bottom right, #3333ff86 0%, transparent 60%),
 #000000;
-    margin-top: 150px;
+    margin-top: 13%;
     padding-left: 20px;
-    width: 1120px;
-    height: 500px;
+    width: 82%;
+    
 }
 .section1::before {/* borda com degrade*/
     content: "";/*Obrigatório para o pseudo-elemento aparecer.*/
@@ -490,14 +491,14 @@ footer{/*rodapé do site*/
     font-family: "Fjalla One", sans-serif;/*fonte usada*/
     font-weight: 100;
     font-style: normal;
-    margin-left: 300px;
+    text-align: center;
 }
 .final{/*ultima parte do site*/
     font-family: "Roboto Condensed", sans-serif;/*fonte usada*/
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    margin-left: 450px;
+    text-align: center;
 }
 /*Responsivo*/
 @media screen and (max-width: 1020px) {
@@ -527,6 +528,34 @@ footer{/*rodapé do site*/
         padding-left: 20px;
     }
     .carrosel{
-        
+        width: 95%;
     }
+    .direita{
+        margin-left: 86%;
+    }
+    .titulo-dep1{
+        font-size: 35px;
+    }
+    .titulo-dep2{
+        font-size: 15px;
+    }
+    .depoimentos-tot{
+        width: 95%;
+    }
+
+    .section1{
+        margin-top: 20%;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+    }
+    .ftprof{
+        width: 650px;
+        height: 700px;
+    }
+    .faq{
+    width: 90%;
+    
+    }
+
 }
