@@ -651,14 +651,10 @@ footer{/*rodapé do site*/
         margin-left: 20px;
         font-size: 30px; 
     }
-
     .header2{
         flex-direction: column;
-        width: 100%;
-        
+        width: 100%; 
     }
-
-
     .t1{
         margin-left: 0%;
         margin-bottom: 0;
@@ -680,7 +676,6 @@ footer{/*rodapé do site*/
         margin-left: 100px;
         margin-top: 10px;
     }
-
     .img1{
         margin-left: 0;
         width: 300px;
@@ -757,7 +752,6 @@ footer{/*rodapé do site*/
         margin-left: 20%;
         font-size: 20px;
     }
-    
     .curso{
         margin-left: 0;
     }
@@ -789,5 +783,4 @@ footer{/*rodapé do site*/
     .aprovados{
         margin-left: 20%;
     }
-
 }
