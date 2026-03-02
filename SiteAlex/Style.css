@@ -655,7 +655,7 @@ footer{/*rodapé do site*/
     .header2{
         flex-direction: column;
         width: 100%;
-        padding-left: 55px;
+        
     }
 
 
@@ -688,7 +688,7 @@ footer{/*rodapé do site*/
     }
     main{
         width: 100%;
-        padding-left: 50px;
+        padding-left: 10px;
     }
     .carrosel{
         width: 95%;
@@ -748,7 +748,7 @@ footer{/*rodapé do site*/
         font-size: 40px;
     }
     .faq{
-    width: 35%;
+    width: 32%;
     }
     .faq li label{
         font-size: 15px;
@@ -757,15 +757,12 @@ footer{/*rodapé do site*/
         margin-left: 20%;
         font-size: 20px;
     }
-    footer{
-        width: 100%;
-        padding-left: 55px;
-    }
+    
     .curso{
         margin-left: 0;
     }
     .curso_contato{
-        padding-left: 20px;
+        padding-left: 10px;
         margin-left: 0;
     }
     .curso{
